@@ -29,8 +29,7 @@ const imageGalleryEl = document.querySelectorAll('.gallery__image');
 
 imageGalleryEl.forEach(img => {
   img.addEventListener('click', onOpenModalImage);
-  
-});
+  });
 
 function onOpenModalImage(evt) {
   evt.preventDefault();
